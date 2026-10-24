@@ -1,0 +1,49 @@
+body {
+    background-image: url(./image/Games.png);
+    border:;
+    border-radius: ;
+    height: ;
+    
+.nav-item{
+    background-color: aliceblue;
+}
+
+header .nav-pills .nav-link{
+   background-color: aliceblue;
+}
+
+header .nav-pills .nav-link:hover{
+    background-color: aquamarine;
+
+}
+header .nav-pills .nav-link.active{
+     background-color: blanchedalmond;
+}
+
+header .btn-primary{
+    background-color: black;
+}
+header .btn-primary:hover{
+    background-color: brown;
+}
+
+main .btn-primary{
+    background-color: beige;
+}
+main .btn-primary:hover{
+    background-color: aqua;
+}
+
+footer .nav-link{
+    background-color: cadetblue;
+}
+footer .nav-link:hover{
+    background-color: hotpink;
+}
+
+.btn-secondary{
+    background-color: blueviolet;
+}
+.btn-secondary:hover{
+    background-color: darkorange;
+}

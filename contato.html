@@ -1,0 +1,205 @@
+ <!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Game</title>
+
+    <!-- Recurso de CSS do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container pt-3">
+            <button type="button" class="btn btn-primary position-relative">
+                Perfil
+                <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                    <span class="visually-hidden">New alerts</span>
+                </span>
+            </button>
+        </div>
+
+        <div class="container">
+            <h1 class="text-center mt-3 text-bg-primary">Mercado Game</h1>
+
+            <!-- Menu de navegação -->
+            <nav class="d-flex justify-content-center py-3">
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="galeria.html" class="nav-link">galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="dados.html" class="nav-link">dados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contato.html" class="nav-link active">Contatos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="sobre.html" class="nav-link">Sobre</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <div class="container px-4 py-5">
+
+            <!-- Título da seção -->
+            <h2 class="pb-2 border-bottom">
+                Games Atuais
+            </h2>
+
+            <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+
+                <!-- Apresentação dos jogos -->
+                <div class="col d-flex flex-column align-items-start gap-2">
+                    <h2 class="fw-bold text-body-emphasis">
+                        Jogos Atuais e Lançamentos
+                    </h2>
+                    <p class="text-body-secondary">
+                        Em alta e com bons valores, online e multijogador
+                    </p>
+                    <a href="#" class="btn btn-primary btn-lg">
+                        Compras
+                    </a>
+                </div>
+
+                <!-- Categorias de jogos -->
+                <div class="col">
+                    <div class="row row-cols-1 row-cols-sm-2 g-4">
+
+                        <!-- Jogos de ação -->
+                        <div class="col d-flex flex-column gap-2">
+                            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                <svg class="bi" width="1em" height="1em" aria-hidden="true">
+                                    <use xlink:href="#collection"></use>
+                                </svg>
+                            </div>
+                            <h4 class="fw-semibold mb-0 text-body-emphasis">
+                                Jogos de Ação
+                            </h4>
+                            <p class="text-body-secondary">
+                                Jogos de Tiro e Aventura
+                            </p>
+                        </div>
+
+                        <!-- Jogos de luta -->
+                        <div class="col d-flex flex-column gap-2">
+                            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                <svg class="bi" width="1em" height="1em" aria-hidden="true">
+                                    <use xlink:href="#gear-fill"></use>
+                                </svg>
+                            </div>
+                            <h4 class="fw-semibold mb-0 text-body-emphasis">
+                                Jogos de Luta
+                            </h4>
+                            <p class="text-body-secondary">
+                                Lutas, violência e história
+                            </p>
+                        </div>
+
+                        <!-- Jogos de história -->
+                        <div class="col d-flex flex-column gap-2">
+                            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                <svg class="bi" width="1em" height="1em" aria-hidden="true">
+                                    <use xlink:href="#speedometer"></use>
+                                </svg>
+                            </div>
+                            <h4 class="fw-semibold mb-0 text-body-emphasis">
+                                Jogos de História
+                            </h4>
+                            <p class="text-body-secondary">
+                                Modo História
+                            </p>
+                        </div>
+
+                        <!-- Jogos multijogador -->
+                        <div class="col d-flex flex-column gap-2">
+                            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                <svg class="bi" width="1em" height="1em" aria-hidden="true">
+                                    <use xlink:href="#table"></use>
+                                </svg>
+                            </div>
+                            <h4 class="fw-semibold mb-0 text-body-emphasis">
+                                Modo multijogador
+                            </h4>
+                            <p class="text-body-secondary">
+                                Jogos online e competição
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link px-2 text-body-secondary">
+                    <font dir="auto" style="vertical-align: inherit;">
+                        <font dir="auto" style="vertical-align: inherit;">Inicio</font>
+                    </font>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="galeria.html" class="nav-link px-2 text-body-secondary">
+                    <font dir="auto" style="vertical-align: inherit;">
+                        <font dir="auto" style="vertical-align: inherit;">Galeria</font>
+                    </font>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="dados.html" class="nav-link px-2 text-body-secondary">
+                    <font dir="auto" style="vertical-align: inherit;">
+                        <font dir="auto" style="vertical-align: inherit;">Dados</font>
+                    </font>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="contato.html" class="nav-link px-2 text-body-secondary">
+                    <font dir="auto" style="vertical-align: inherit;">
+                        <font dir="auto" style="vertical-align: inherit;">Contato</font>
+                    </font>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="sobre.html" class="nav-link px-2 text-body-secondary">
+                    <font dir="auto" style="vertical-align: inherit;">
+                        <font dir="auto" style="vertical-align: inherit;">Sobre</font>
+                    </font>
+                </a>
+            </li>
+        </ul>
+        <p class="text-center text-body-secondary">
+            <font dir="auto" style="vertical-align: inherit;">
+                <font dir="auto" style="vertical-align: inherit;">© 2026 Company Mercado Games inc.</font>
+            </font>
+        </p>
+    </footer>
+
+    <!-- Recurso de JavaScript do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
